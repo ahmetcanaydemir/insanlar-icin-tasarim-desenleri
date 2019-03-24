@@ -10,7 +10,7 @@ Herkesin aklını kolayca karıştıracak bir konu. Burada tasarım desenlerini 
 </p>
 
 ***
-Asıl olarak [@kamranahmedse](https://github.com/kamranahmedse)'in yazdığı [design-patterns-for-humans](https://github.com/kamranahmedse/design-patterns-for-humans) deposunun Türkçe'ye çevrilmiş halidir. Doğrudan çeviriden ziyade bir uyarlama yapmaya çalıştım. Genelde İngilizce terimlerine aşina olduğumuzdan desenlerin İngilizcelerini de parantez içerisinde bıraktım. Vikipedi tanımları tr.wikipedia kaynaklıdır.
+Asıl olarak [@kamranahmedse](https://github.com/kamranahmedse)'in oluşturduğu [design-patterns-for-humans](https://github.com/kamranahmedse/design-patterns-for-humans) deposunun Türkçe'ye çevrilmiş halidir. Doğrudan çeviriden ziyade bir uyarlama yapmaya çalıştım. Genelde İngilizce terimlerine aşina olduğumuzdan desenlerin İngilizcelerini de parantez içerisinde bıraktım. Vikipedi tanımları tr.wikipedia kaynaklıdır.
 
 Lütfen eksik veya yanlış gördüğünüz kısımları geliştirmek için istek gönderin.
 
@@ -39,9 +39,9 @@ Vikipedi tanımı
 Tasarım Desenleri Türleri
 -----------------
 
-* [Yaratım (Creational)](#creational-design-patterns)
-* [Yapısal (Structural)](#structural-design-patterns)
-* [Durumsal (Behavioral)](#behavioral-design-patterns)
+* [Yaratım (Creational)](#yaratım-creational-tasarım-desenleri)
+* [Yapısal (Structural)](#yapısal-structural-tasarım-desenleri)
+* [Durumsal (Behavioral)](#durumsal-behavioral-tasarım-desenleri)
 
 Yaratım (Creational) Tasarım Desenleri
 ==========================
@@ -52,12 +52,12 @@ Basit bir şekilde
 Vikipedi tanımı
 > Yaratım örüntüleri, yazılım nesnelerinin (ya da başka bir deyişle sınıf örnekleri - class instances) nasıl yaratılacağı hakkında öneriler sunar. Ana fikir, iyi bir yazılımın, içinde barındırdığı nesnelerin nasıl yaratıldığından bağımsız olarak tasarlanması gerekliliğidir. Diğer bir deyişle, nesnelerin nereden ve nasıl yaratıldığı, ait oldukları yazılımın işleyişini etkilememeli; yeni özellikler eklenmesine ve değişikliklere karşı sorun oluşturmamalıdır. 
 
- * [Basit Fabrika (Simple Factory)](#-simple-factory)
- * [Fabrika Yöntemi (Factory Method)](#-factory-method)
- * [Soyut Fabrika (Abstract Factory)](#-abstract-factory)
- * [Yapıcı (Builder)](#-builder)
- * [Örnek (Prototype)](#-prototype)
- * [Yegâne (Singleton)](#-singleton)
+ * [Basit Fabrika (Simple Factory)](#-basit-fabrika-simple-factory)
+ * [Fabrika Yöntemi (Factory Method)](#-fabrika-yontemi-factory-method)
+ * [Soyut Fabrika (Abstract Factory)](#-soyut-fabrika-abstract-factory)
+ * [Yapıcı (Builder)](#-yapıcı-builder)
+ * [Örnek (Prototype)](#-örnek-prototype)
+ * [Yegâne (Singleton)](#-yegâne-singleton)
 
 🏠 Basit Fabrika (Simple Factory)
 --------------
@@ -569,13 +569,13 @@ Basit bir şekilde
 Vikipedi tanımı
 > Yapısal örüntüler sınıfların ve nesnelerin birleştirilerek daha geniş yazılım yapılarının kurulmasına olanak sağlayan öneriler sunar. Sınıf yapı örüntüleri ve nesne yapı örüntüleri olmak üzere ikiye ayrılır. Sınıf yapı örüntüleri **kalıtım** kullanarak sınıf arayüzlerini ya da uygulamaları **bileştirerek** yapıları genişletir. Nesne yapı örüntüleri ise nesnelerin birleştirilerek **yeni işlevler kazanma yollarını** gösterir. 
 
- * [Uyumlayıcı (Adapter)](#-adapter)
- * [Köprü (Bridge)](#-bridge)
- * [Bileşik (Composite)](#-composite)
- * [Dekoratör (Decorator)](#-decorator)
- * [Cephe (Facade)](#-facade)
- * [Sinek siklet (Flyweight)](#-flyweight)
- * [Vekil (Proxy)](#-proxy)
+ * [Uyumlayıcı (Adapter)](#-uyumlayıcı-adapter)
+ * [Köprü (Bridge)](#-köprü-bridge)
+ * [Bileşik (Composite)](#-bileşik-composite)
+ * [Dekoratör (Decorator)](#-dekoratör-decorator)
+ * [Cephe (Facade)](#-cephe-facade)
+ * [Sinek siklet (Flyweight)](#-sinek-siklet-flyweight)
+ * [Vekil (Proxy)](#-vekil-proxy)
 
 🔌 Uyumlayıcı (Adapter)
 -------
@@ -1266,16 +1266,16 @@ Basit bir şekilde
 Vikipedi tanımı
 > Davranış örüntüleri işlevsel sorumlulukların nesneler arasında nasıl atanacağı ve yazılımın gerektirdiği çözüm yöntemlerinin nesnelerce nasıl kullanılacağı hakkında öneriler sunar. Davranış örüntüleri nesne ve sınıf kalıpları yanı sıra nesneler arasındaki iletişim ile ilgili örüntüler de sunar. Davranış örüntüleri tasarımcının nesneler arası iletişim ve iletişim yöntemlerine yoğunlaşmasını sağlar. 
 
-* [Sorumluluklar Zinciri (Chain of Responsibility)](#-chain-of-responsibility)
-* [Komut (Command)](#-command)
-* [Yineleyici (Iterator)](#-iterator)
-* [Arabulucu (Mediator)](#-mediator)
-* [Yadigâr (Memento)](#-memento)
-* [Gözlemci (Observer)](#-observer)
-* [Ziyaretçi (Visitor)](#-visitor)
-* [Strateji (Strategy)](#-strategy)
-* [Durum (State)](#-state)
-* [Şablon Yöntemi (Template Method)](#-template-method)
+* [Sorumluluklar Zinciri (Chain of Responsibility)](#-sorumluluklar-zinciri-chain-of-responsibility)
+* [Komut (Command)](#-komut-command)
+* [Yineleyici (Iterator)](#-yineleyici-iterator)
+* [Arabulucu (Mediator)](#-arabulucu-mediator)
+* [Yadigâr (Memento)](#-yadigâr-memento)
+* [Gözlemci (Observer)](#-gözlemci-observer)
+* [Ziyaretçi (Visitor)](#-ziyaretçi-visitor)
+* [Strateji (Strategy)](#-strateji-strategy)
+* [Durum (State)](#-durum-state)
+* [Şablon Yöntemi (Template Method)](#-şablon-yöntemi-template-method)
 
 🔗 Sorumluluk Zinciri (Chain of Responsibility)
 -----------------------

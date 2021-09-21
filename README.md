@@ -1414,7 +1414,7 @@ class Ampul
 ```
 Sonra komutların her birine uygulanacak bir arayüzümüz ayrıca bazı `komut`larımız var
 ```php
-interface Command
+interface Komut
 {
     public function gerceklestir();
     public function gerial();
